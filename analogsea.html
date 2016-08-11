@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Sign up form to be awesome">
+  <title>Analog Sea Form</title>
+  <link rel="stylesheet" type="text/css" href="analogstyles.css">
+</head>
+
+<body>
+
+<header>
+  <img src="analogsealogo.png"/>
+</header>
+
+<main>
+  <form class='signup-form' action="/signup/" method='post'>
+
+    <fieldset name="Sign Up">
+      <div class="form-title">
+         Sign Up
+      </div>
+
+      <div class="test">
+        <label for="email">Email</label>
+        <input placeholder='youremail@email.com' type="text" name='email'/>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input placeholder='1234passw0rd' type="text" name='password'/>
+      </div>
+
+      <button>Sign Up</button>
+    </fieldset>
+  </form>
+  <p><a href="/forgot_password/new">Forgot password?</a></p>
+</main>
+
+<footer>
+   Already have an account? <a href="/login">Log in</a>
+ </footer>
+
+</body>
+</html>
